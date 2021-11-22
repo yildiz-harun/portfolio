@@ -2,23 +2,23 @@ function NavLinks(props) {
   return (
     <ul>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#home">Home</a>
+        <a href="/portfolio/#home">Home</a>
       </li>
 
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#about">About Me</a>
+        <a href="/portfolio/#about">About Me</a>
       </li>
 
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#works">Works</a>
+        <a href="/portfolio/#works">Works</a>
       </li>
 
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#contact">Contact</a>
+        <a href="/portfolio/#contact">Contact</a>
       </li>
 
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#comments">Comments</a>
+        <a href="/portfolio/#comments">Comments</a>
       </li>
     </ul>
   );
