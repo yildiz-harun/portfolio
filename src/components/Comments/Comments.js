@@ -29,7 +29,7 @@ function Comments() {
   }
 
   return (
-    <div className={classes.Comments} id={"comments"}>
+    <div className={classes.Comments} id={"portfolio/comments"}>
       <div className={classes.Container}>
         <div className={classes.subContainer}>
           <form className={classes.formContainer} onSubmit={handleSubmit}>

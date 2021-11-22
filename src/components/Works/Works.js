@@ -10,7 +10,7 @@ import img5 from "../../img/5.jpg";
 
 function Works() {
   return (
-    <div className={classes.Works} id="works">
+    <div className={classes.Works} id="portfolio/works">
       <div className={classes.Center}>
         <Container>
           <Row>

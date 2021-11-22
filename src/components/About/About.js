@@ -4,7 +4,7 @@ import me from "../../img/me.jpg";
 
 function About() {
   return (
-    <div className={classes.About} id={"about"}>
+    <div className={classes.About} id={"portfolio/about"}>
       <div className={classes.Container}>
         <img src={me} alt={"code"} />
         <div className={classes.aboutText}>

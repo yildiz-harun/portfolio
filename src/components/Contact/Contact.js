@@ -3,7 +3,7 @@ import classes from "./Contact.module.css";
 
 function Contact() {
   return (
-    <div className={classes.Contact} id="contact">
+    <div className={classes.Contact} id="portfolio/contact">
       <div className={classes.Container}>
         <div className={classes.formContainer}>
           <div>Name: </div>
